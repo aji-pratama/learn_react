@@ -24,7 +24,8 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      list: list,
+      list, //Ini ES6
+      list: list, //ini ES5
     }
   }
 
